@@ -1,0 +1,350 @@
+.sortable-table{
+	float:left;
+}
+
+  #sortable1, #sortable2, #sortable_shop1, #sortable_shop2 , #sortable_shop1pr, #sortable_shop2pr {
+    border: 1px solid #eee;
+    width: 142px;
+    min-height: 20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 5px 0 0 0;
+    float: left;
+    margin-right: 10px;
+  }
+  #sortable1 li, #sortable2 li,  #sortable_shop1 li, #sortable_shop2 li, #sortable_shop1pr li, #sortable_shop2pr li  {
+    margin: 0 5px 5px 5px;
+    padding: 5px;
+    font-size: 1.2em;
+    width: 120px;
+  }
+  .connectedSortable{
+float:left;
+}
+
+.defualt-push-button{
+float:left;
+width: 30%;
+}
+  div#seialize-div {
+    float: left;
+  }
+  div#seialize-div-shop {
+    float: left;
+  }
+h6.h6-class {
+    font-size: xx-small;
+    margin: initial;
+}
+
+#serilization-layers-shop-products, #serilization-layers-shop, #serialize-layers{
+	display:none;
+}
+/* indicate in red that here come the product layout */
+ul b{
+	color:red;
+}
+ul li:hover {
+	cursor:move;
+}
+h2.hndle.ui-sortable-handle {
+    pointer-events: none;
+}
+.wp-core-ui .button-link {
+float:left;
+}
+
+/*  builder css  */
+#builder-div-product  .ul-builder {
+    margin: 100px;
+}
+#builder-div-shop-products  .ul-builder {
+    margin: 100px;
+}
+
+#builder-div-shop  .ul-builder {
+    margin: 100px;
+}
+
+
+textarea.html-textarea {
+    height: 10em;
+	width: 10em;
+}
+h6#html-class {
+    margin-bottom: 0;
+}
+textarea#html-class {
+    height: 1.5em;
+    width: 8em;
+}
+
+/* builder div and its elements  */
+
+.sortable-table{
+	float:left;
+}
+
+  #sortable1, #sortable2, #sortable_shop1, #sortable_shop2 , #sortable_shop1pr, #sortable_shop2pr {
+    border: 1px solid #eee;
+    width: 142px;
+    min-height: 20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 5px 0 0 0;
+    float: left;
+    margin-right: 10px;
+  }
+  #sortable1 li, #sortable2 li,  #sortable_shop1 li, #sortable_shop2 li, #sortable_shop1pr li, #sortable_shop2pr li  {
+    margin: 0 5px 5px 5px;
+    padding: 5px;
+    font-size: 1.2em;
+    width: 120px;
+  }
+  .connectedSortable{
+float:left;
+}
+
+.defualt-push-button{
+float:left;
+width: 30%;
+}
+  div#seialize-div {
+    float: left;
+  }
+  div#seialize-div-shop {
+    float: left;
+  }
+  div#seialize-div-shop-products {
+    float: left;
+  }
+
+h6.h6-class {
+    font-size: xx-small;
+    margin: initial;
+}
+
+#serilization-layers-shop-products, #serilization-layers-shop, #serialize-layers{
+	display:none;
+}
+/* indicate in red that here come the product layout */
+ul b{
+	color:red;
+}
+ul li:hover {
+	cursor:move;
+}
+ul li.button:hover {
+    cursor: move;
+}
+h2.hndle.ui-sortable-handle {
+    pointer-events: none;
+}
+.wp-core-ui .button-link {
+float:left;
+}
+
+/*  builder css  */
+#builder-div-product  .ul-builder {
+    margin: 100px;
+}
+#builder-div-shop-products  .ul-builder {
+    margin: 100px;
+}
+#builder-div-shop  .ul-builder {
+    margin: 100px;
+}
+
+textarea.html-textarea {
+    height: 10em;
+	width: 10em;
+}
+h6#html-class {
+    margin-bottom: 0;
+}
+textarea#html-class {
+    height: 1.5em;
+    width: 8em;
+}
+
+/* builder div and its elements  */
+#builder-div-product, #builder-div-shop-products ,#builder-div-shop{
+    width:70%;
+    margin:10px;
+}
+#builder-div-product  .ul-builder {
+    margin: 10px;
+    margin-top: 0;
+}
+#builder-div-shop-products  .ul-builder {
+    margin: 10px;
+    margin-top: 0;
+}
+#builder-div-shop  .ul-builder {
+    margin: 10px;
+    margin-top: 0;
+}
+input.button-style {
+    height: 1.5em;
+}
+
+#builder-div-product  .ul-builder {
+    margin: 10px;
+    margin-top: 0;
+}
+#builder-div-shop-products  .ul-builder {
+    margin: 10px;
+    margin-top: 0;
+}
+#builder-div-shop  .ul-builder {
+    margin: 10px;
+    margin-top: 0;
+}
+input.button-style {
+    height: 1.5em;
+}
+
+div#product-layout {
+    position: relative:;
+}
+div#shop-products {
+    position: relative:;
+}
+
+#builder-div-product, #builder-div-shop-products, #builder-div-shop {
+    position: absolute;
+    left:30%;
+}
+
+#builder-div-product  .ul-builder-style {
+    margin-top: 0;
+}
+#builder-div-shop-products  .ul-builder-style {
+    margin-top: 0;
+}
+#builder-div-shop  .ul-builder-style {
+    margin-top: 0;
+}
+#builder-div-product  .ul-builder {
+    margin: 10px;
+    margin-top: 0;
+    height: 400px;
+}
+#builder-div-shop-products   .ul-builder {
+    margin: 10px;
+    margin-top: 0;
+    height: 400px;
+}
+#builder-div-shop   .ul-builder {
+    margin: 10px;
+    margin-top: 0;
+    height: 400px;
+}
+#builder-div-product, #builder-div-shop-products, #builder-div-shop  {
+    position: absolute;
+    left: 30%;
+    width: 50%;
+    display: inline-flex;
+}
+
+#builder-div-product .ul-builder-link {
+    margin-top: 0;
+}
+#builder-div-shop-products .ul-builder-link {
+    margin-top: 0;
+}
+#builder-div-shop .ul-builder-link {
+    margin-top: 0;
+}
+
+#builder-div-product, #builder-div-shop-products, #builder-div-shop {
+    position: absolute;
+    left: 30%;
+    width: 50%;
+	top: 120px;
+}
+
+.tables h5 {
+    position: absolute;
+    left: 32%;
+    width: 50%;
+    display: inline-flex;
+    margin-top: -10px;
+}
+
+#builder-div-product  .ul-builder-class {
+    margin-top: 0;
+}
+
+#builder-div-shop-products  .ul-builder-class {
+    margin-top: 0;
+}
+
+#builder-div-shop .ul-builder-class {
+    margin-top: 0;
+}
+
+/* just to unhide hidden boxes for debugging  */
+
+#serilization-layers-shop-products, #serilization-layers-shop, #serialize-layers{
+	display:block;
+}
+
+#builder-div-product li {
+    margin-bottom: 0;
+}
+
+#builder-div-shop-products li {
+    margin-bottom: 0;
+}
+#builder-div-shop li {
+    margin-bottom: 0;
+}
+
+
+/*   css for shop  */
+
+
+div#builder-div-shop {
+    float: left;
+}
+
+div#builder-div-shop ul {
+    float: left;
+}
+
+/* for the button link etyling  */
+.wp-core-ui .button-link{
+    /* margin: 1px; */
+    padding: 3px 5px;
+    border: 1px solid #ddd;
+}
+
+/* zeroing all margins arround all buttons */
+input {
+    margin:0;
+}
+
+/* expand markup teatare beyond parent left border */
+textarea.textarea-markup-id {
+    /* margin-right: -200px !important; */
+    position: absolute;
+    width: 70%;
+    height: 50%;
+}
+
+.tables h5 {
+    position: absolute;
+    left: 32%;
+    width: 50%;
+    display: inline-flex;
+    margin-top: 70px;
+    font-size: 1.2em;
+}
+         
+input#serialize-layers, input#serialize-layers-product-builder,
+input#serilization-layers-shop, input#serialize-layers-shop-builder,
+input#serilization-layers-shop-products, input#serialize-layers-shop-products-builder {
+    display: none;
+}
+

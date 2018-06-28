@@ -1,0 +1,55 @@
+.woocommerce nav.woocommerce-pagination ul li, .woocommerce-page nav.woocommerce-pagination ul li {
+border: 0;
+margin: 0px 2px;
+}
+li.woocommerce-MyAccount-navigation-link.woocommerce-MyAccount-navigation-link--orders, li.woocommerce-MyAccount-navigation-link.woocommerce-MyAccount-navigation-link--downloads {
+display: none !important;
+}
+.woocommerce nav.woocommerce-pagination ul, .woocommerce-page nav.woocommerce-pagination ul {
+border: 0;
+}
+.ownsocial {
+margin: 120px 0px;
+}
+button.single_add_to_cart_button.button.alt {
+background: #fb8841 !important;
+}
+.sale-perc {
+background-color: #D9534F;
+display: inline;
+padding: .2em .6em .3em;
+font-size: 75%;
+font-weight: bold;
+color: #fff;
+text-align: center;
+border-radius: .25em;
+}
+.original_price h2{	
+background: #0a0a0a;
+}
+.subscription_price h2{
+background: #fb8841;
+} 
+.original_price h2, .subscription_price h2 {
+color: #fff;
+font-size: 15px;
+line-height: 30px;
+font-weight: normal;
+height: 30px;
+text-align: center;
+}
+.subscription_price {
+text-align: center;
+}
+.original_price {
+text-align: center;
+}
+.ms-re input{
+float: left;
+margin-left: 0px; 
+}   
+.account-login-inner label.ms-re {
+float: left;
+width: 100%;
+}
+@media only screen and (max-width: 48em) { }
