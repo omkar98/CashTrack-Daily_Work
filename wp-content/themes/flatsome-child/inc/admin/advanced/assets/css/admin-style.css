@@ -1,6 +1,8 @@
 /*-----------------------------------------------------------------------------------
 /* Admin styles
 /*-----------------------------------------------------------------------------------*/
+
+
 .updated, .error {
 	display:none!important
 } /* disable the admin notices */
@@ -69,7 +71,7 @@
 	min-height: 100%;
 	background-color: #FFF;padding:30px;
 	width: 100%;
-	font-family: "Lucida Grande", Sans-serif;
+	
 }
 #of_container #content .section {
 	margin-bottom: 10px;
@@ -253,7 +255,7 @@ html[data-iframe] #of_container .of-save-popup div{padding-top: 15px;}
 	border-radius: 4px;
 }
 #of_container .reset-button {
-	font-family:Arial,Verdana,sans-serif;
+	
 	margin:0 ;
 	color: #ef521d;
 	border-color: #bbb;
@@ -271,7 +273,7 @@ html[data-iframe] #of_container .of-save-popup div{padding-top: 15px;}
 }
 
 #of_save {
-	font-family: Arial,Verdana,sans-serif;
+	
 }
 
 #of_save:hover {
