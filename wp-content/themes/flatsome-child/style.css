@@ -73,8 +73,15 @@ border-radius: .25em;
 
 
 
-@media only screen and (max-width: 48em) {
+@media only screen and (max-width: 320px) {
 /*************** ADD MOBILE ONLY CSS HERE  ***************/
+    div#breadcrumb {
+    margin-bottom: -49px;
+    font-size: 9px;
+    padding-top: 15px;
+        color: #1a9cb7;
+
+}
 
 
 }
@@ -82,12 +89,42 @@ border-radius: .25em;
 #customer_details .woocommerce-additional-fields {position:absolute;top:70px;width:100%}
 #billing_subscription_field {margin-top:100px;}
 body,h1,h2,h3,h4,h5,h6,h7,a,p,li,ul{
-    font-family: 'Montserrat' !important;
+    font-family: 'Nunito Sans' !important;
 }
 div#breadcrumb {
-    margin-bottom: -44px;
+    margin-bottom: -45px !important;
     font-size: 12px;
     padding-top: 15px;
+        color: #1a9cb7;
+
+}
+div#breadcrumb a:hover{
+    text-decoration: underline;
+}
+.product-short-description ul li {
+    line-height: 21px;
+    font-size: 15px;
+}
+
+.product-short-description {
+    padding-top: 16px;
+}
+div#breadcrumb a {
+    font-weight: 100 !important;
+    color: #1a9cb7;
+    font-size: 12px;
+    padding-top: 05px;
+    letter-spacing: 0.5px;
+    line-height: 21px;
+}
+.mb-half:last-child, .mb:last-child {
+    margin-top: -42px;
+}
+.product-images.relative.mb-half.has-hover.woocommerce-product-gallery.woocommerce-product-gallery--with-images.woocommerce-product-gallery--columns-4.images img {
+    width: 80%;
+}
+.product-footer {
+    margin-top: -122px !important;
 }
 h1.product-title.entry-title.removepadng {
     padding-bottom: 12px;
