@@ -1,0 +1,9 @@
+.pdfg-wrap{
+text-align:right;
+}
+.pdfg-wrap a.pdfg-print{
+background: rgba(0, 0, 0, 0) url(//13.251.15.108/wp-content/plugins/html-pdf-generator/assets/images/printer-32.png) repeat scroll 0 0 / cover ;
+display: inline-block;
+height: 32px;
+width: 32px;
+}

@@ -1,0 +1,13 @@
+			@font-face {
+				font-family: 'Arial';
+				font-style: normal;
+				src: url('/wp-content/uploads/useanyfont/180322102009Arimo.eot');
+				src: local('arimo'), url('/wp-content/uploads/useanyfont/180322102009Arimo.eot') format('embedded-opentype'), url('/wp-content/uploads/useanyfont/180322102009Arimo.woff') format('woff');
+			}
+            
+            .arimo{font-family: 'Arial',sans-serif !important;}
+            
+						body, h1, h2, h3, h4, h5, h6, p, blockquote, li, a{
+					font-family: 'Arial' !important;
+				}
+		

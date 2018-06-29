@@ -1,0 +1,209 @@
+/* Main Content */
+/* Package Selection Page */
+.sbs-package-container {
+  padding-bottom: 50px;
+}
+
+@media (min-width: 768px) and (max-width: 900px) {
+  .woocommerce .sbs-add-package-to-cart a.button {
+    font-size: 1.2em;
+  }
+}
+
+@media (min-width: 769px) {
+	.sbs-package-content {
+		padding-left: 20%;
+		padding-right: 20%;
+	}
+}
+
+.sbs-package-content.sbs-package-content-per-row-1 ul,
+.sbs-package-content.sbs-package-content-per-row-1 ol {
+  padding-left: 33%;
+  padding-right: 33%;
+}
+
+.sbs-package-content.sbs-package-content-per-row-2 ul,
+.sbs-package-content.sbs-package-content-per-row-2 ol {
+  padding-left: 33%;
+  padding-right: 33%;
+}
+
+.sbs-package-content.sbs-package-content-per-row-3 ul,
+.sbs-package-content.sbs-package-content-per-row-3 ol {
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.sbs-package-content.sbs-package-content-wide-container {
+  width: 60%;
+  margin: 0 auto;
+}
+
+@media (max-width: 1080px) {
+	.sbs-package-content.sbs-package-content-per-row-1 ul,
+	.sbs-package-content.sbs-package-content-per-row-1 ol {
+    padding-left: 14%;
+    padding-right: 14%;
+  }
+
+	.sbs-package-content.sbs-package-content-per-row-2 ul,
+	.sbs-package-content.sbs-package-content-per-row-2 ol {
+    padding-left: 14%;
+    padding-right: 14%;
+  }
+
+	.sbs-package-content.sbs-package-content-per-row-3 ul,
+	.sbs-package-content.sbs-package-content-per-row-3 ol {
+    padding-left: 14%;
+    padding-right: 14%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1080px) {
+	.sbs-package-content-per-row-3,
+	.sbs-package-content-per-row-4,
+	.sbs-package-content-per-row-5
+	{
+		font-size: 0.8em;
+	}
+}
+
+/* Step-By-Step Navbar */
+.step-number-after {
+  display: none;
+}
+
+#sbs-navbar .step-title {
+  line-height: 2;
+}
+
+/* WooCommerce notices and errors */
+.woocommerce-message {
+  background-color: #777;
+}
+
+.woocommerce-message a {
+  color: #a7cae2;
+}
+
+.woocommerce-error {
+  background-color: #b31d1d;
+}
+
+/* Main Step-By-Step Product Loop */
+
+.woocommerce.columns-1 ul.products li.product a img {
+  margin: 0 auto 9px !important;
+}
+
+.woocommerce.columns-1 ul.products li.product a img {
+  width: auto;
+}
+
+.woocommerce.columns-1 ul.products li.product {
+  text-align: center;
+}
+
+@media (min-width: 981px) and (max-width: 1200px) {
+  .woocommerce ul.products a.button,
+  .woocommerce ul.products button.alt,
+  .woocommerce ul.products button.button.alt
+  {
+    font-size: 0.9em;
+  }
+
+  .woocommerce ul.products a.button::after,
+  .woocommerce ul.products button.alt::after,
+  .woocommerce ul.products button.button.alt::after
+  {
+    font-size: 24px;
+    line-height: 0.9em;
+  }
+
+}
+
+@media (min-width: 1201px) {
+  .woocommerce ul.products a.button,
+  .woocommerce ul.products button.alt,
+  .woocommerce ul.products button.button.alt  {
+    font-size: 1.2em;
+  }
+  .woocommerce ul.products a.button::after,
+  .woocommerce ul.products button.alt::after,
+  .woocommerce ul.products button.button.alt::after {
+    line-height: 0.9em;
+  }
+}
+
+.sbs-options-and-fees.woocommerce a.button, .sbs-options-and-fees.woocommerce a.button.alt, .sbs-options-and-fees.woocommerce a.button:hover, .sbs-options-and-fees.woocommerce a.button.alt:hover, .sbs-options-and-fees.woocommerce button.button, .sbs-options-and-fees.woocommerce .sbs-options-and-fees button.button.alt, .sbs-options-and-fees.woocommerce button.button.alt:hover, .sbs-options-and-fees.woocommerce input.button.alt
+{
+  font-size: 1.2em;
+}
+
+.sbs-options-and-fees.woocommerce a.button::after,
+.sbs-options-and-fees.woocommerce button.alt::after,
+.sbs-options-and-fees.woocommerce button.button.alt::after
+{
+  line-height: 0.9em;
+}
+
+
+.woocommerce .quantity input.qty {
+  height: auto;
+}
+
+.woocommerce .quantity input.qty, .woocommerce-page .quantity input.qty, .woocommerce #content .quantity input.qty, .woocommerce-page #content .quantity input.qty, .woocommerce-cart table.cart td.actions .coupon .input-text
+{
+  color: #1d1111 !important; /* Overrides Divi important tag */
+  background-color: #bbb !important;
+}
+
+p.sbs-subcat-description:last-of-type {
+  padding-bottom: 1em;
+}
+
+/* Magnific Popup */
+.woocommerce  div.product.modal-right-side-full form.cart div.quantity,
+.woocommerce  div.product.modal-right-side-full form.cart .button
+{
+  float: none;
+}
+
+.mfp-content .woocommerce div.product form.cart .variations select {
+	max-width: 75%;
+}
+
+.mfp-content p.price {
+  font-size: 1.5em;
+  padding-bottom: 1em;
+}
+
+.mfp-content .woocommerce .quantity input.qty {
+  height: 49px;
+}
+
+.mfp-content .woocommerce div.product form.cart .variations td select,
+.mfp-content .woocommerce div.product form.cart .variations td.label {
+  font-size: 18px;
+}
+
+/* Calculator Widget */
+#sbs-widget-sidebar-cart-totals {
+	border: none;
+}
+
+.sbs-widget-sidebar-merch-credit .sbs-widget-sidebar-total-column {
+  border-top: none !important;
+}
+
+/* Options and Fees table */
+.woocommerce.sbs-options-and-fees tr td {
+  padding: 15px 24px;
+	border: none;
+}
+
+/* Checkout Page */
+#order_review_heading {
+	margin-top: 2em;
+}

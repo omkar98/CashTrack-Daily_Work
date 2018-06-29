@@ -1,0 +1,353 @@
+.clearfix {
+  clear: both;
+}
+
+.grayed-out-text {
+  color: rgb(144, 144, 144);
+}
+
+.sbs-buy-notice {
+  font-size: 1.3em;
+}
+
+@media (max-width: 575px) {
+  .sbs-buy-notice {
+    font-size: 1em;
+  }
+}
+
+.horizontal-stack {
+  float: left;
+  margin-right: 30px;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+
+.sidebar-banner {
+  margin-top: 1em;
+  width: 100%;
+  max-width: 269px;
+}
+
+.mobile-upsell-notice {
+  text-align: center;
+  border: 1px solid #5773d2;
+  background-color: #fff;
+  padding: 16px
+}
+
+.mobile-upsell-link {
+  display: inline-block;
+  background-color: #39479e;
+  color: white;
+  text-decoration: none;
+  padding: 12px;
+  font-size: 1.2em;
+  border-radius: 4px;
+  touch-action: manipulation;
+  cursor: pointer;
+}
+
+@media (max-width: 575px) {
+  .sidebar-banner {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.sidebar-banner-link {
+  text-decoration: none;
+}
+
+.sidebar-banner-link:focus {
+  box-shadow: none;
+}
+
+div.sortable-container {
+  /*overflow: auto;*/
+}
+
+/*#main-sortable-container {
+  display: flex;
+}*/
+
+.sortable-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/*@media (max-width: 767px) {
+  .sortable-container {
+    width: 75%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .sortable-container {
+    width: 44%;
+  }
+}*/
+
+ol.sortable, ul.sortable {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 6px;
+  padding-right: 6px;
+  overflow: auto;
+  border: 1px solid #ddd;
+}
+
+.sortable-item.sortable-fixed {
+  background-color: #ccc;
+}
+
+div.fixed-item {
+  border: 1px solid gray;
+  padding: 10px;
+  background-color: #ccc;
+}
+
+li.sortable-item {
+  border: 1px solid gray;
+  padding: 10px;
+  background-color: white;
+  cursor: move;
+}
+
+.ui-sortable-placeholder {
+  border: 1px dashed black;
+  padding: 10px;
+  line-height: 2em;
+}
+
+.subcat-restricted li:nth-child(n+3) .subcat-name {
+  color: rgb(144, 144, 144);
+}
+
+.subcat-restricted li:nth-child(n+3) .subcat-name::after {
+  content: "(Inactive, Upgrade to Premium to unlock)";
+}
+
+body.dragging, body.dragging * {
+  cursor: move !important;
+}
+
+.dragged {
+  position: absolute;
+  z-index: 2000;
+  top: 0;
+}
+
+ol.sortable li.placeholder, ul.sortable li.placeholder {
+  position: relative;
+  /** More li styles **/
+}
+
+ol.sortable ul.sortable li.placeholder:before, ul.sortable li.placeholder:before {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 0;
+  margin-top: -5px;
+  left: -5px;
+  top: -4px;
+  border: 5px solid transparent;
+  border-left-color: #ccc;
+  border-right: none;
+}
+
+/* Sortable button controls */
+.sbs-sortable-item-add,
+.sbs-sortable-item-remove,
+.sbs-sortable-item-move-up,
+.sbs-sortable-item-move-down
+{
+  padding-left: 0.5em;
+}
+
+#sbs-order .sbs-sortable-item-add,
+#sbs-pool-container .sbs-sortable-item-remove,
+#sbs-pool-container .sbs-sortable-item-move-up,
+#sbs-pool-container .sbs-sortable-item-move-down
+{
+  display: none;
+}
+
+.sortable-item:first-child .sbs-sortable-item-move-up,
+.sortable-item:last-child .sbs-sortable-item-move-down
+{
+  display: none;
+}
+
+.sortable-item.sortable-nested-item .sbs-sortable-item-move-up,
+.sortable-item.sortable-nested-item .sbs-sortable-item-move-down
+{
+  display: inline;
+}
+
+.sortable-nested-item:first-child .sbs-sortable-item-move-up,
+.sortable-nested-item:last-child .sbs-sortable-item-move-down
+{
+  display: none;
+}
+
+div#sbs-order-container, div#sbs-pool-container {
+  padding: 48px;
+  float: left;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  div#sbs-order-container, div#sbs-pool-container {
+    padding: 10px;
+    float: left;
+  }
+}
+
+/* Display theme thumbnails */
+.sbs-display-thumbnail-wrap {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.sbs-display-thumbnail-item {
+  float: left;
+  padding-bottom: 5px;
+}
+
+.sbs-display-thumbnail-img {
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: center;
+}
+
+/* Tooltip container */
+.sbs-tooltip {
+  position: relative;
+  display: inline-block;
+  cursor: help;
+  margin-right: 5px;
+}
+
+/* Tooltip text */
+
+@media (min-width: 769px) {
+  .sbs-tooltip .sbs-tooltiptext {
+    visibility: hidden;
+    min-width: 180px;
+    background-color: #555;
+    color: #fff;
+    text-align: left;
+    padding: 5px 13px;
+    border-radius: 6px;
+    font-size: 0.8em;
+
+    /* Position the tooltip text */
+    position: absolute;
+    z-index: 1;
+
+    /* Fade in tooltip */
+    /*opacity: 0;
+    transition: opacity 1s;*/
+  }
+
+  .sbs-tooltip-top {
+    bottom: 125%;
+    left: 50%;
+    margin-left: -103px;
+  }
+
+  .sbs-tooltip-right {
+    top: -9px;
+    left: 150%;
+    font-weight: normal;
+  }
+}
+
+@media (max-width: 768px) {
+  .sbs-tooltip .sbs-tooltiptext {
+    visibility: hidden;
+    background-color: #555;
+    color: #fff;
+    text-align: left;
+    margin: 0 auto;
+    padding: 10px 13px;
+    border-radius: 6px;
+    font-size: 1em;
+    font-weight: normal;
+
+    width: 30%;
+    font-size: 1.2em;
+
+    /* Position the tooltip text */
+    position: fixed;
+    z-index: 1;
+    bottom: 2%;
+    left: 0;
+    right: 0;
+
+    /* Fade in tooltip */
+    opacity: 0;
+    transition: opacity 1s;
+  }
+}
+
+@media (max-width: 767px) {
+  .sbs-tooltip .sbs-tooltiptext {
+    width: 60%;
+    font-size: 1em;
+  }
+}
+
+/* Tooltip arrow */
+@media (min-width: 769px) {
+  /*.sbs-tooltip-top::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }*/
+}
+
+/*.sbs-tooltip-right::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 100%;
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent #555 transparent transparent;
+}*/
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.sbs-tooltip:hover .sbs-tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.sbs-tooltip-icon::before {
+  content: "?";
+  font-size: 1em;
+  color: white;
+  background-color: #313131;
+  border-radius: 100%;
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  line-height: 1em;
+  text-align: center;
+}
