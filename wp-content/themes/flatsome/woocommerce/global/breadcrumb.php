@@ -41,7 +41,7 @@ foreach ( $terms as $term )
     if($term->parent == 94)
     {
 //     echo  "Brand : " . $term->name;
-     echo '<a href="'.home_url( ).'/product-category/brand/">Brand : </a>';
+     echo 'Brand : ';
      echo '<a href="'.home_url( ).'/product-category/brand/'.strtolower($term->name).'">' .$term->name. '</a>';
     }
 }   
@@ -55,17 +55,17 @@ foreach ( $terms as $term )
     {
         if($count==0)
         {
-            echo ' | <a href="'.home_url( ).'/product-category/needs/'.strtolower($term->name).'">More ';
-            echo $term->name;
+            echo ' | More ';
+            echo '<a href="'.home_url( ).'/product-category/needs/'.strtolower($term->name).'">'.$term->name.'</a>';
             $count++;
         }else{
             echo ' & ';
-            echo $term->name;
+            echo '<a href="'.home_url( ).'/product-category/needs/'.strtolower($term->name).'">'.$term->name.'</a>';
         }
     }       
 }
    echo ' related products ';
-    echo '| Caps :&nbsp;'. substr(get_the_title($product_id),-3,3);   
+   echo '| Caps :&nbsp;<span>'. substr(get_the_title($product_id),-3,3) . '</span>';   
 }
 ?>
 </div>

@@ -95,9 +95,11 @@ div#breadcrumb {
     margin-bottom: -45px !important;
     font-size: 12px;
     padding-top: 15px;
-        color: #1a9cb7;
-
+    font-weight: 100 !important;
+    color: #9EA6B1;
+    font-size: 12px;
 }
+
 div#breadcrumb a:hover{
     text-decoration: underline;
 }
@@ -109,9 +111,14 @@ div#breadcrumb a:hover{
 .product-short-description {
     padding-top: 16px;
 }
+
+#breadcrumb span {
+    color: #45AFC5 !important;
+}
+
 div#breadcrumb a {
     font-weight: 100 !important;
-    color: #1a9cb7;
+    color: #45AFC5 !important;
     font-size: 12px;
     padding-top: 05px;
     letter-spacing: 0.5px;
@@ -132,4 +139,26 @@ h1.product-title.entry-title.removepadng {
 }
 .is-medium {
     display: none !important;
+}
+
+div.linedraw {
+    padding-top: 8px;
+    width: 95% !important;
+    border-bottom: 1px solid #eff0f5;
+    position: absolute;
+}
+
+div.linedraw2 {
+    padding-top: 0px;
+    width: 95% !important;
+    border-bottom: 1px solid #eff0f5;
+    position: absolute;
+}
+.product-short-description p{
+    font-size: 15px;
+    text-align: justify;
+}
+
+.product-tabs .description_tabs a{
+    font-size: 14px !important;
 }
