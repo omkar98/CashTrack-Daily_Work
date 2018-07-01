@@ -20,19 +20,65 @@ function auto_redirect_after_logout(){
 
 remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_excerpt', 20 );
 
-add_action( 'woocommerce_after_single_product_summary', 'bbloomer_custom_action', 2 );
- 
-function bbloomer_custom_action() {
-echo '<h2 class="product-features-title">Product Features</h2>';
-}
-
-add_action( 'woocommerce_after_single_product_summary', 'woocommerce_template_single_excerpt', 3);
-
 add_action( 'woocommerce_after_add_to_cart_button', 'add_content_after_addtocart_button_func' );
 
 function add_content_after_addtocart_button_func() {
     echo '<a href="'.home_url( ).'/wp-content/uploads/2018/05/offer_image.PNG"></a>';
 }
+
+/**
+ * Customize product data tabs
+ */
+add_filter( 'woocommerce_product_tabs', 'woo_custom_description_tab', 98 );
+function woo_custom_description_tab( $tabs ) {
+
+	$tabs['description']['callback'] = 'woo_custom_description_tab_content';	// Custom description callback
+
+	return $tabs;
+}
+
+function woo_custom_description_tab_content() {
+	echo '<h2>Custom Description</h2>';
+    global $product;
+    echo $product->short_description; 
+}
+
+
+/**
+ * Add a custom Reviews product data tab
+ */
+add_filter( 'woocommerce_product_tabs', 'woo_new_product_tab' );
+function woo_new_product_tab( $tabs ) {
+	
+	// Adds the new tab
+	
+	$tabs['test_tab'] = array(
+		'title' 	=> __( 'Reviews', 'woocommerce' ),
+		'priority' 	=> 50,
+		'callback' 	=> 'woo_new_product_tab_content'
+	);
+
+	return $tabs;
+
+}
+function woo_new_product_tab_content() {
+
+	// The new tab content
+
+	echo '<h2>Reviews</h2>';
+	echo '<p>Be the first to Review!</p>';
+}
+
+/**
+ * Rename product data tabs
+ */
+add_filter( 'woocommerce_product_tabs', 'woo_rename_tabs', 98 );
+function woo_rename_tabs( $tabs ) {
+
+	$tabs['description']['title'] = __( 'Features' );		// Rename the description tab
+	return $tabs;
+}
+
 ?>
 
 
