@@ -14,6 +14,7 @@
 		 */
 		do_action( 'woocommerce_before_single_product_summary' );
 	?>
+		
 	</div>
 
 	<div class="product-info summary col-fit col entry-summary <?php flatsome_product_summary_classes();?>">

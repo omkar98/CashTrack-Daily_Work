@@ -28,8 +28,12 @@ echo '<h2 class="product-features-title">Product Features</h2>';
 
 add_action( 'woocommerce_after_single_product_summary', 'woocommerce_template_single_excerpt', 3);
 
-?>
+add_action( 'woocommerce_after_add_to_cart_button', 'add_content_after_addtocart_button_func' );
 
+function add_content_after_addtocart_button_func() {
+    echo '<a href="'.home_url( ).'/wp-content/uploads/2018/05/offer_image.PNG"></a>';
+}
+?>
 
 
 <?php
