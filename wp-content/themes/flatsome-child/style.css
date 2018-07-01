@@ -131,7 +131,7 @@ div#breadcrumb a {
     width: 80%;
 }
 .product-footer {
-    margin-top: -122px !important;
+    margin-top: -47px !important;
 }
 h1.product-title.entry-title.removepadng {
     padding-bottom: 12px;
@@ -161,4 +161,31 @@ div.linedraw2 {
 
 .product-tabs .description_tabs a{
     font-size: 14px !important;
+}
+/* .btn-group-quantity button {
+    background-color: #4CAF50; Green background
+    border: 1px solid green; Green border
+    color: white; White text
+    padding: 10px 24px !important; Some padding
+    cursor: pointer; Pointer/hand icon
+   width: 50% !important; Set a width if needed
+   display: block !important; Make the buttons appear below each other
+}
+
+.btn-group-quantity button:not(:last-child) {
+    border-bottom: none; Prevent double borders
+}
+
+Add a background color on hover
+.btn-group-quantity button:hover {
+    background-color: #3e8e41;
+} */
+
+button.single_add_to_cart_button {
+    text-transform: none;
+}
+
+ul.product-tabs.nav.small-nav-collapse.tabs.nav.nav-uppercase.nav-pills.nav-left li {
+    font-size: 20px;
+    font-weight: 700;
 }

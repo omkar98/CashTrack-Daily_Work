@@ -2,7 +2,6 @@
 
 <div class="product-main">
 	<div class="row content-row mb-0">
-
 		<div class="product-gallery col large-<?php echo flatsome_option('product_image_width'); ?>">
 		<?php
 			/**
@@ -13,7 +12,6 @@
 			do_action( 'woocommerce_before_single_product_summary' );
 		?>
 		</div>
-
 		<div class="product-info summary col-fit col entry-summary <?php flatsome_product_summary_classes();?>">
 			<?php
 				/**
@@ -26,9 +24,10 @@
 				 * @hooked woocommerce_template_single_add_to_cart - 30
 				 * @hooked woocommerce_template_single_meta - 40
 				 * @hooked woocommerce_template_single_sharing - 50
-				 */
-				do_action( 'woocommerce_single_product_summary' );
-			?>
+				 */            
+            
+            do_action( 'woocommerce_single_product_summary' );
+           ?>
 
 		</div><!-- .summary -->
 

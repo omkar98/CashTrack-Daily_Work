@@ -1,4 +1,4 @@
-<?php
+    <?php
 
 /**
  * Get Flatsome option
@@ -92,3 +92,5 @@ function flatsome_is_request( $type ) {
       return ( ! is_admin() || defined( 'DOING_AJAX' ) ) && ! defined( 'DOING_CRON' );
   }
 }
+
+

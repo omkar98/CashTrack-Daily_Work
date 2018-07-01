@@ -28,6 +28,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	}
 	?>
 </div><!-- /.container -->
+
 <div id="product-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<?php
 	// Get product page layout

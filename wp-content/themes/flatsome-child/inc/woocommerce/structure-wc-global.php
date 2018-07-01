@@ -370,3 +370,4 @@ if(get_theme_mod('disable_reviews')){
      return $tabs;
     }
 }
+

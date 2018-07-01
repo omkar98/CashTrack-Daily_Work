@@ -35,14 +35,14 @@ if ( !empty($breadcrumb) ) {
 $terms = get_the_terms ( $product_id, 'product_cat' );
 //print_r($terms);
     $count = 0;
-/*This loop is for Brand*/  
+/*This loop is for Brand*/
 foreach ( $terms as $term ) 
 {   
     if($term->parent == 94)
     {
 //     echo  "Brand : " . $term->name;
      echo 'Brand : ';
-     echo '<a href="'.home_url( ).'/product-category/brand/'.strtolower($term->name).'">' .$term->name. '</a>';
+     echo '<a href="'.home_url( ).'/product-category/brand/'.$term->slug.'">' .$term->name. '</a>';
     }
 }   
     
@@ -56,11 +56,11 @@ foreach ( $terms as $term )
         if($count==0)
         {
             echo ' | More ';
-            echo '<a href="'.home_url( ).'/product-category/needs/'.strtolower($term->name).'">'.$term->name.'</a>';
+            echo '<a href="'.home_url( ).'/product-category/needs/'.$term->slug.'">'.$term->name.'</a>';
             $count++;
         }else{
             echo ' & ';
-            echo '<a href="'.home_url( ).'/product-category/needs/'.strtolower($term->name).'">'.$term->name.'</a>';
+            echo '<a href="'.home_url( ).'/product-category/needs/'.$term->slug.'">'.$term->name.'</a>';
         }
     }       
 }

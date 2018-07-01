@@ -1,5 +1,5 @@
 <?php
-/**
+/*
  * Result Count
  *
  * @author 		WooThemes

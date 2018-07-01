@@ -16,6 +16,23 @@ function auto_redirect_after_logout(){
 ?>
 
 <?php
+
+
+remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_excerpt', 20 );
+
+add_action( 'woocommerce_after_single_product_summary', 'bbloomer_custom_action', 2 );
+ 
+function bbloomer_custom_action() {
+echo '<h2 class="product-features-title">Product Features</h2>';
+}
+
+add_action( 'woocommerce_after_single_product_summary', 'woocommerce_template_single_excerpt', 3);
+
+?>
+
+
+
+<?php
 /**
  * @snippet       Display Discount Percentage @ Loop Pages - WooCommerce
  * @how-to        Watch tutorial @ https://businessbloomer.com/?p=19055
