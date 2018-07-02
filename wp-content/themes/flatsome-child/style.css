@@ -10,33 +10,33 @@ Version: 3.0
 
 
 .woocommerce nav.woocommerce-pagination ul li, .woocommerce-page nav.woocommerce-pagination ul li {
-    border: 0;
-    margin: 0px 2px;
+	border: 0;
+	margin: 0px 2px;
 }
 li.woocommerce-MyAccount-navigation-link.woocommerce-MyAccount-navigation-link--orders, li.woocommerce-MyAccount-navigation-link.woocommerce-MyAccount-navigation-link--downloads {
-    display: none !important;
+	display: none !important;
 }
 
 .woocommerce nav.woocommerce-pagination ul, .woocommerce-page nav.woocommerce-pagination ul {
-    border: 0;
+	border: 0;
 }
 .ownsocial {
-    margin: 120px 0px;
+	margin: 120px 0px;
 }
 
 button.single_add_to_cart_button.button.alt {
-    background: #fb8841 !important;
+	background: #fb8841 !important;
 }
 
 .sale-perc {
-background-color: #D9534F;
-display: inline;
-padding: .2em .6em .3em;
-font-size: 75%;
-font-weight: bold;
-color: #fff;
-text-align: center;
-border-radius: .25em;
+	background-color: #D9534F;
+	display: inline;
+	padding: .2em .6em .3em;
+	font-size: 75%;
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+	border-radius: .25em;
 }
 .original_price h2{	
 	background: #0a0a0a;
@@ -46,25 +46,25 @@ border-radius: .25em;
 	background: #fb8841;
 } 
 .original_price h2, .subscription_price h2 {
-    
-    color: #fff;
-    font-size: 15px;
-    line-height: 30px;
-    font-weight: normal;
-    height: 30px;
+
+	color: #fff;
+	font-size: 15px;
+	line-height: 30px;
+	font-weight: normal;
+	height: 30px;
 	text-align: center;
 }
 .subscription_price {
-    text-align: center;
+	text-align: center;
 }
 .original_price {
-    text-align: center;
-    padding-top: 15px;
+	text-align: center;
+	padding-top: 15px;
 }
 
 .ms-re input{
 	float: left;
-    margin-left: 0px; 
+	margin-left: 0px; 
 }   
 .account-login-inner label.ms-re {
 	float: left;
@@ -74,14 +74,14 @@ border-radius: .25em;
 
 
 @media only screen and (max-width: 320px) {
-/*************** ADD MOBILE ONLY CSS HERE  ***************/
-    div#breadcrumb {
-    margin-bottom: -49px;
-    font-size: 9px;
-    padding-top: 15px;
-        color: #1a9cb7;
+	/*************** ADD MOBILE ONLY CSS HERE  ***************/
+	div#breadcrumb {
+		margin-bottom: -49px;
+		font-size: 9px;
+		padding-top: 15px;
+		color: #1a9cb7;
 
-}
+	}
 
 
 }
@@ -89,127 +89,167 @@ border-radius: .25em;
 #customer_details .woocommerce-additional-fields {position:absolute;top:70px;width:100%}
 #billing_subscription_field {margin-top:100px;}
 body,h1,h2,h3,h4,h5,h6,h7,a,p,li,ul{
-    font-family: 'Nunito Sans' !important;
+	font-family: 'Nunito Sans' !important;
 }
 div#breadcrumb {
-    margin-bottom: -45px !important;
-    font-size: 12px;
-    padding-top: 15px;
-    font-weight: 100 !important;
-    color: #9EA6B1;
-    font-size: 12px;
+	margin-bottom: -45px !important;
+	font-size: 12px;
+	padding-top: 15px;
+	font-weight: 100 !important;
+	color: #9EA6B1;
+	font-size: 12px;
 }
 
 div#breadcrumb a:hover{
-    text-decoration: underline;
+	text-decoration: underline;
 }
 .product-short-description ul li {
-    line-height: 21px;
-    font-size: 15px;
+	line-height: 21px;
+	font-size: 15px;
 }
 
 .product-short-description {
-    padding-top: 16px;
+	padding-top: 16px;
 }
 
 #breadcrumb span {
-    color: #45AFC5 !important;
+	color: #45AFC5 !important;
 }
 
 div#breadcrumb a {
-    font-weight: 100 !important;
-    color: #45AFC5 !important;
-    font-size: 12px;
-    padding-top: 05px;
-    letter-spacing: 0.5px;
-    line-height: 21px;
+	font-weight: 100 !important;
+	color: #45AFC5 !important;
+	font-size: 12px;
+	padding-top: 05px;
+	letter-spacing: 0.5px;
+	line-height: 21px;
 }
 .mb-half:last-child, .mb:last-child {
-    margin-top: -42px;
+	margin-top: -42px;
 }
 .product-images.relative.mb-half.has-hover.woocommerce-product-gallery.woocommerce-product-gallery--with-images.woocommerce-product-gallery--columns-4.images img {
-    width: 80%;
+	width: 80%;
 }
 .product-footer {
-    margin-top: -47px !important;
+	margin-top: -47px !important;
 }
 h1.product-title.entry-title.removepadng {
-    padding-bottom: 12px;
-    margin-bottom: 0;
+	padding-bottom: 12px;
+	margin-bottom: 0;
 }
 .is-medium {
-    display: none !important;
+	display: none !important;
 }
 
 div.linedraw {
-    padding-top: 8px;
-    width: 95% !important;
-    border-bottom: 1px solid #eff0f5;
-    position: absolute;
+	padding-top: 8px;
+	width: 95% !important;
+	border-bottom: 1px solid #eff0f5;
+	position: absolute;
 }
 
 div.linedraw2 {
-    padding-top: 0px;
-    width: 95% !important;
-    border-bottom: 1px solid #eff0f5;
-    position: absolute;
+	padding-top: 0px;
+	width: 95% !important;
+	border-bottom: 1px solid #eff0f5;
+	position: absolute;
 }
 .product-short-description p{
-    font-size: 15px;
-    text-align: justify;
+	font-size: 15px;
+	text-align: justify;
 }
 
 .product-tabs .description_tabs a{
-    font-size: 14px !important;
+	font-size: 14px !important;
 }
 
 button.single_add_to_cart_button {
-    text-transform: none;
+	text-transform: none;
 }
 
 ul.product-tabs.nav.small-nav-collapse.tabs.nav.nav-uppercase.nav-pills.nav-left li {
-    font-size: 20px;
-    font-weight: 700;
+	font-size: 20px;
+	font-weight: 700;
 }
 .quantity input[type="number"] {
-    max-width: 5.5em !important;
-    height: 48px !important;
-        width: 7.2em !important;
-    box-shadow: none !important;
-    -webkit-appearance: button-bevel !important;
-    width: 100% !important;
+	max-width: 5.5em !important;
+	height: 48px !important;
+	width: 7.2em !important;
+	box-shadow: none !important;
+	-webkit-appearance: button-bevel !important;
+	width: 100% !important;
 }
 
 td.plus.is-form {
-    width: 20% !important;
-    background-color: none !important;
-    text-shadow: none !important;
-    border: 1px solid black !important;
-    padding: 0px !important;
-    text-align: center !important;
-    background-color: white !important;
-    padding-left: 2px !important;
-    padding-right: 2px !important;
-    line-height: 0.5em !important;
+	width: 20% !important;
+	background-color: none !important;
+	text-shadow: none !important;
+	border: 1px solid black !important;
+	padding: 0px !important;
+	text-align: center !important;
+	background-color: white !important;
+	padding-left: 2px !important;
+	padding-right: 2px !important;
+	line-height: 0.5em !important;
 }
 
 button.single_add_to_cart_button.button.alt {
-    margin-top: 10px !important;
+	margin-top: 13px !important;
 }
 
 td.minus.is-form {
-    /* width: 18% !important; */
-    background-color: none !important;
-    text-shadow: none !important;
-    border: 1px solid black !important;
-    padding: 0px;
-    text-align: center !important;
-    background-color: white !important;
-    padding-left: 2px;
-    padding-right: 2px;
-    line-height: 0.5em !important;
+	/* width: 18% !important; */
+	background-color: none !important;
+	text-shadow: none !important;
+	border: 1px solid black !important;
+	padding: 0px;
+	text-align: center !important;
+	background-color: white !important;
+	padding-left: 2px;
+	padding-right: 2px;
+	line-height: 0.5em !important;
 }
 
 .tab-panels p {
-    text-align: justify !important;
+	text-align: justify !important;
+}
+
+.buttons_added td {
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+    width: 87%;
+}
+ul.product-tabs.nav.small-nav-collapse.tabs.nav.nav-uppercase.nav-pills.nav-left li {
+    width: 25.00% !important;
+   
+}
+.product-summary .quantity {
+    margin-bottom: 1em;
+    margin-top: 10px !important;
+}
+ul.product-tabs.nav.small-nav-collapse.tabs.nav.nav-uppercase.nav-pills.nav-left li {
+    text-align: center !important;
+}
+ul.product-tabs.nav.small-nav-collapse.tabs.nav.nav-uppercase.nav-pills.nav-left li a {
+color:white;
+}
+li.features_tab_tab {
+    background: #424242;
+}
+li.how-to-use_tab {
+    background: #afafaf;
+}
+li.description_tab {
+    background: #666666;
+}
+li.ingredients_tab {
+    background: #ebebeb;
+}
+li.ingredients_tab  a{
+	color:black !important;
+    background: #ebebeb;
+}
+ul.product-tabs.nav.small-nav-collapse.tabs.nav.nav-uppercase.nav-pills.nav-left li.active {
+    background: #fb8841;
 }
