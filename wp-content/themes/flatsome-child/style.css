@@ -162,24 +162,6 @@ div.linedraw2 {
 .product-tabs .description_tabs a{
     font-size: 14px !important;
 }
-/* .btn-group-quantity button {
-    background-color: #4CAF50; Green background
-    border: 1px solid green; Green border
-    color: white; White text
-    padding: 10px 24px !important; Some padding
-    cursor: pointer; Pointer/hand icon
-   width: 50% !important; Set a width if needed
-   display: block !important; Make the buttons appear below each other
-}
-
-.btn-group-quantity button:not(:last-child) {
-    border-bottom: none; Prevent double borders
-}
-
-Add a background color on hover
-.btn-group-quantity button:hover {
-    background-color: #3e8e41;
-} */
 
 button.single_add_to_cart_button {
     text-transform: none;
@@ -193,4 +175,41 @@ ul.product-tabs.nav.small-nav-collapse.tabs.nav.nav-uppercase.nav-pills.nav-left
     max-width: 5.5em !important;
     height: 48px !important;
         width: 7.2em !important;
+    box-shadow: none !important;
+    -webkit-appearance: button-bevel !important;
+    width: 100% !important;
+}
+
+td.plus.is-form {
+    width: 20% !important;
+    background-color: none !important;
+    text-shadow: none !important;
+    border: 1px solid black !important;
+    padding: 0px !important;
+    text-align: center !important;
+    background-color: white !important;
+    padding-left: 2px !important;
+    padding-right: 2px !important;
+    line-height: 0.5em !important;
+}
+
+button.single_add_to_cart_button.button.alt {
+    margin-top: 10px !important;
+}
+
+td.minus.is-form {
+    /* width: 18% !important; */
+    background-color: none !important;
+    text-shadow: none !important;
+    border: 1px solid black !important;
+    padding: 0px;
+    text-align: center !important;
+    background-color: white !important;
+    padding-left: 2px;
+    padding-right: 2px;
+    line-height: 0.5em !important;
+}
+
+.tab-panels p {
+    text-align: justify !important;
 }
