@@ -18,6 +18,7 @@ function auto_redirect_after_logout(){
 <?php
 
 
+
 remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_excerpt', 20 );
 
 add_action( 'woocommerce_after_add_to_cart_button', 'add_content_after_addtocart_button_func' );
@@ -25,7 +26,17 @@ add_action( 'woocommerce_after_add_to_cart_button', 'add_content_after_addtocart
 function add_content_after_addtocart_button_func() {
      echo '<img src="'.home_url( ).'/wp-content/uploads/2018/05/offer_image.PNG"></a>';
 }
+?>
 
+<?php
+
+
+/*
+Last Modified: 10:13PM IST , 02-07-2018 by Omkar Deshpande
+Purpose: 
+  (a) Product's 'Short Description' in a New Tab named 'Product Features'. 
+  (b) Reordering of Tabs
+*/
 /**
  * Add a custom product features data tab
  */
@@ -54,14 +65,13 @@ function woo_new_product_tab_content() {
 add_filter( 'woocommerce_product_tabs', 'woo_reorder_tabs', 98 );
 function woo_reorder_tabs( $tabs ) {
 
-	$tabs['features_tab']['priority'] = 5;			// Reviews first
+	$tabs['features_tab']['priority'] = 5;			// Features_tab first
 	$tabs['description']['priority'] = 10;			// Description second
 //	$tabs['how_to_use']['priority'] = 15;
-    // Additional information third
-
 	return $tabs;
 }
 
+/*End of Tabs Field*/
 ?>
 
 

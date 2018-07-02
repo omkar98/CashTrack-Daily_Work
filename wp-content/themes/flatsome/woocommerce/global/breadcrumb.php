@@ -1,11 +1,3 @@
-<style>
-div#breadcrumb {
-    font-size: 12px;
-    margin-bottom: -39px;
-    padding-top: 05px;
-}
-
-</style>
 <?php
 /**
  * Shop breadcrumb
@@ -30,7 +22,10 @@ if ( !empty($breadcrumb) ) {
 ?>
 <div id = "breadcrumb">
 <?php
-    
+/*Last Modified: 09:33PM IST 02-07-2018 by Omkar Deshpande
+  Purpose: For displaying the Product Brand, Product Categories and Caps.
+*/
+
     /*This gets all the terms of a particular product ID*/
 $terms = get_the_terms ( $product_id, 'product_cat' );
 //print_r($terms);

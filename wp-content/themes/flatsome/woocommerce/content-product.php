@@ -95,7 +95,7 @@ $product->id;
 			if($mysus != ""){
 			?>
 				<div class="subscription_price">
-					<h2>Subscription Price</h2>
+					<h2>Subscription Price heyyy</h2>
 					<p><span class="mydoller">$</span> <?php echo $product->get_sale_price(); ?> <span> / Pack</span></p>
 				</div>
 			<?php } ?>

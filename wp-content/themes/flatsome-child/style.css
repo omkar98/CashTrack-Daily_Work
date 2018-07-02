@@ -85,12 +85,10 @@ button.single_add_to_cart_button.button.alt {
 
 
 }
-#customer_details {position:relative;}
-#customer_details .woocommerce-additional-fields {position:absolute;top:70px;width:100%}
-#billing_subscription_field {margin-top:100px;}
-body,h1,h2,h3,h4,h5,h6,h7,a,p,li,ul{
-	font-family: 'Nunito Sans' !important;
-}
+
+/* Last Modified: 10:37PM IST by Omkar Deshpande
+Design of the Breadcrumb Part.*/
+
 div#breadcrumb {
 	margin-bottom: -45px !important;
 	font-size: 12px;
@@ -99,23 +97,9 @@ div#breadcrumb {
 	color: #9EA6B1;
 	font-size: 12px;
 }
-
 div#breadcrumb a:hover{
 	text-decoration: underline;
 }
-.product-short-description ul li {
-	line-height: 21px;
-	font-size: 15px;
-}
-
-.product-short-description {
-	padding-top: 16px;
-}
-
-#breadcrumb span {
-	color: #45AFC5 !important;
-}
-
 div#breadcrumb a {
 	font-weight: 100 !important;
 	color: #45AFC5 !important;
@@ -124,6 +108,28 @@ div#breadcrumb a {
 	letter-spacing: 0.5px;
 	line-height: 21px;
 }
+#breadcrumb span {
+	color: #45AFC5 !important;
+}
+div#breadcrumb {
+    font-size: 12px;
+    margin-bottom: -39px;
+    padding-top: 05px;
+}
+/*End of Breadcrumb Part*/
+
+
+#customer_details {position:relative;}
+#customer_details .woocommerce-additional-fields {position:absolute;top:70px;width:100%}
+#billing_subscription_field {margin-top:100px;}
+body,h1,h2,h3,h4,h5,h6,h7,a,p,li,ul{
+	font-family: 'Nunito Sans' !important;
+}
+
+
+
+
+
 .mb-half:last-child, .mb:last-child {
 	margin-top: -42px;
 }
@@ -154,23 +160,14 @@ div.linedraw2 {
 	border-bottom: 1px solid #eff0f5;
 	position: absolute;
 }
-.product-short-description p{
-	font-size: 15px;
-	text-align: justify;
-}
 
-.product-tabs .description_tabs a{
-	font-size: 14px !important;
-}
+
+
 
 button.single_add_to_cart_button {
 	text-transform: none;
 }
 
-ul.product-tabs.nav.small-nav-collapse.tabs.nav.nav-uppercase.nav-pills.nav-left li {
-	font-size: 20px;
-	font-weight: 700;
-}
 .quantity input[type="number"] {
 	max-width: 5.5em !important;
 	height: 48px !important;
@@ -210,8 +207,28 @@ td.minus.is-form {
 	line-height: 0.5em !important;
 }
 
-.tab-panels p {
-	text-align: justify !important;
+
+/* Last Modified: 10:32PM IST 02/07/2018 by Omkar Deshpande
+Purpose :
+(a) Styling of the Tabs in the content single product page.
+(b) Justifing the text within the tabs
+*/
+.product-short-description ul li {
+	line-height: 21px;
+	font-size: 15px;
+}
+
+.product-short-description {
+	padding-top: 16px;
+}
+
+.product-short-description p{
+	font-size: 15px;
+	text-align: justify;
+}
+
+.product-tabs .description_tabs a{
+	font-size: 14px !important;
 }
 
 .buttons_added td {
@@ -220,6 +237,16 @@ td.minus.is-form {
 	border-bottom: 1px solid black;
     width: 87%;
 }
+
+ul.product-tabs.nav.small-nav-collapse.tabs.nav.nav-uppercase.nav-pills.nav-left li {
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.tab-panels p {
+	text-align: justify !important;
+}
+
 ul.product-tabs.nav.small-nav-collapse.tabs.nav.nav-uppercase.nav-pills.nav-left li {
     width: 25.00% !important;
    
@@ -253,3 +280,7 @@ li.ingredients_tab  a{
 ul.product-tabs.nav.small-nav-collapse.tabs.nav.nav-uppercase.nav-pills.nav-left li.active {
     background: #fb8841;
 }
+
+/*End of designing of the Tabs*/
+
+
